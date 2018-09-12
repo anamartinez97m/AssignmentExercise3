@@ -1,0 +1,4 @@
+Like we have to order an n size array, we have to order two n/2 size arrays,
+we get 2T(n/2). Also, so we can mix all the arrays, we have to join the two
+arrays, and with that we get a complexity of O(n), so the total complexity
+of the program is O(n log n)
